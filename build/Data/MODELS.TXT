@@ -1,0 +1,131 @@
+# List all character models to be loaded.
+# Syntax:
+# load		[name]		[path]		// Load on startup
+# know		[name]		[path]		// Load when needed
+# 
+
+maxattacks 15
+maxattacktypes 20
+maxfreespecials 20
+maxfollows     90
+maxwalks 4
+maxidles 4
+nodropen
+equalairpause 1
+
+
+# Required objects. These must always be loaded.
+load	Flash		data/chars/misc/flash.txt
+
+# Players must also be loaded.
+load Golrio data/chars/golrio/golrio.txt
+load Washizuka data/chars/M_washizuka/M_washizuka.txt
+
+# NPC's
+know dravennpc  data/chars/draven/draven-npc.txt
+
+
+# Items and other objects can be loaded when needed.
+know	Apple		data/chars/misc/apple.txt
+know	Meat		data/chars/misc/meat.txt
+know	Meal		data/chars/misc/meal.txt
+know	Meatend		data/chars/misc/meat-end.txt
+know 	tutorialmeat 	data/chars/misc/tutorialmeat/tutorialmeat.txt
+
+know	1up		data/chars/misc/1up.txt
+know	Money		data/chars/misc/money.txt
+know	Gold		data/chars/misc/gold.txt
+know	Time		data/chars/misc/time.txt
+know 	powerupitem1 	data/chars/misc/powerupitems/powerupitem1.txt
+know 	powerupitem2 	data/chars/misc/powerupitems/powerupitem2.txt
+know 	powerupitem3 	data/chars/misc/powerupitems/powerupitem3.txt
+load	x		data/chars/misc/x.txt
+load	wolf		data/chars/misc/wolf.txt
+load	ball		data/chars/misc/ball.txt
+
+# Obstacles (item containers)
+know	Box		data/chars/misc/box.txt
+know	Crate		data/chars/misc/crate.txt
+know	Trash		data/chars/misc/trash.txt
+know	Table		data/chars/misc/table.txt
+know	Chair		data/chars/misc/chair.txt
+know	Fence		data/chars/misc/fence.txt
+know	Drum		data/chars/misc/drum.txt
+know	Trolly		data/chars/misc/trolly.txt
+
+# Enemies
+know	tcanon 		data/chars/tcanon/tcanon.txt
+know	leo		    data/chars/leo/leo.txt
+know Cronus data/chars/cronus/Cronus.txt
+know	selva1       	data/chars/selva1/selva1.txt
+know	selva2       	data/chars/selva2/selva2.txt
+know	that		data/chars/that/that.txt
+know	Bulet		data/chars/misc/bulet.txt
+know    		ninja1	data/chars/ninja1/ninja1.txt
+know    		ninja2	data/chars/ninja2/ninja2.txt
+know    		mukuro	data/chars/mukuro/mukuro.txt
+know Another_K		data/chars/k2/k2.txt
+know	Eiji		data/chars/5eiji/eiji.txt
+know	Eiji2		data/chars/5eiji/eiji2.txt
+know	Zankuro		data/chars/Zankuro/Zankuro.txt
+know	Musashi		data/chars/musashi/musashi.txt
+know K		data/chars/k/k.txt
+know shermie	data/chars/shermie/shermie.txt
+know vision	data/chars/vision/vision.txt
+know 	bknight 	data/chars/bknight/bknight.txt
+know 	frost_giant data/chars/frost_giant/frost_giant.txt
+know 	gal			data/chars/gal/gal.txt
+know	Robert		data/chars/robert/robert.txt
+know   draven       data/chars/draven/draven.txt
+know	knight      data/chars/knight/knight.txt
+load duste    data/chars/misc/duste.txt
+
+
+# Other stuff
+know	Knife		data/chars/misc/knife.txt
+know	Shot		data/chars/misc/shot.txt
+know	Star		data/chars/misc/star.txt
+know	Steam		data/chars/misc/steam.txt
+know	Steamer		data/chars/misc/steamer.txt
+know	Furnace		data/chars/misc/furnace.txt
+know 	BoxE 		data/chars/misc/boxe.txt
+know 	selectanimation  	data/chars/misc/select-animation/selectanimation.txt
+know 	rock		data/chars/misc/rock.txt
+load 	b_bshot		data/chars/broly_ssb/shot.txt
+load 	b_blast 	data/chars/broly_ssb/blast.txt
+load 	b_shot 		data/chars/broly_ssb/shot2.txt
+load 	g_blast 	data/chars/golrio/blast.txt
+load 	g_shot 		data/chars/golrio/shot.txt
+load  	bki 		data/chars/misc/bki/bki.txt
+know 	slash 		data/chars/misc/slash/slash.txt
+know  	shuriken 	data/chars/misc/shuriken.txt
+
+# background animations and logo/title overlays
+Know kc-logo Data/Chars/kc-logo/kc-logo.txt
+know 	titleanimation 		data/chars/misc/title-animation/titleanimation.txt
+know 	titlesprite data/chars/misc/title-sprite/title-sprite.txt
+know 	monkanimation 	data/chars/misc/monkhall-animation/monkanimation.txt
+know 	selectsprite 	data/chars/misc/select-sprite/select-sprite.txt
+know 	waterfallanimation 	data/chars/misc/waterfall-animation/waterfallanimation.txt
+know 	outsideanimation 	data/chars/misc/outside-animation/outsideanimation.txt
+know 	nightskyanimation 	data/chars/misc/nightsky-animation/nightskyanimation.txt
+know 	tutorialtitle 	data/chars/misc/tutorial/tutorialtitle.txt
+know 	tutorialtext 	data/chars/misc/tutorial/tutorialtext.txt
+know 	special2tutorialtext 	data/chars/misc/tutorial/special2tutorialtext.txt
+know 	ultimatetutorialtext 	data/chars/misc/tutorial/ultimatetutorialtext.txt
+know 	puzzletutorialtext 	data/chars/misc/tutorial/puzzletutorialtext.txt
+know 	poweruptext 	data/chars/misc/poweruptext/poweruptext.txt
+know 	simontext	data/chars/misc/puzzles/simon/simontext.txt
+know 	stageopening 	data/chars/misc/stageopening/stageopening.txt
+know 	wizardtitle 	data/chars/misc/puzzles/simon/wizardtitle.txt
+
+
+# graphic effects-----------------------------------------------------------------------
+load	zoomout		data/chars/misc/zoomout.txt
+load	zoomin		data/chars/misc/zoomin.txt
+load	zoomblast	data/chars/misc/zoomblast.txt
+load    focus		data/chars/misc/focus/focus.txt
+load    delay           data/chars/misc/delay.txt
+load    empty           data/chars/misc/empty.txt
+load    FakeEn          data/chars/misc/fakeen.txt
+load    aitemFX            data/chars/misc/aitemFX/aitemFX.txt
